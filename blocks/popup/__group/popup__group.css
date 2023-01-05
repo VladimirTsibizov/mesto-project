@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 1179px) {
     .popup__group {
-        width: 238px;
+        max-width: 238px;
     }
 }
