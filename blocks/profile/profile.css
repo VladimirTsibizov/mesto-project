@@ -1,0 +1,21 @@
+.profile {
+    margin: 40px auto 50px;
+    max-width: 1280px;
+    width: calc(100% - 2*200px);
+    padding: 0;
+    display: grid;
+    grid-template-areas: "avater info add";
+    grid-template-columns: minmax(min-content, max-content) repeat(2, auto);
+    grid-auto-rows: minmax(min-content, max-content);
+    align-items: center;
+}
+
+@media screen and (max-width: 1179px) {
+    .profile {
+        margin: 42px auto 36px;
+        width: 282px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

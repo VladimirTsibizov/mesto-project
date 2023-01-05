@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <img src="./images/logo.svg" alt="Надпись Mesto и в правом углу Russia" class="header__logo">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <img src="./images/Avatar.png" alt="Лицо пользователя Жак-Ив Кусто" class="profile__avatar">
+                <div class="profile__info">
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <button class="profile__edit-button hover" type="button"
+                        aria-label="Редактировать профиль"></button>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                </div>
+                <button class="profile__add-button hover" type="button" aria-label="Кнопка добавить"></button>
+            </section>
+            <section class="elements" aria-label="Фотокарточки">
+                <article class="element">
+                    <img src="./images/karachaevsk.jpg" alt="Фото Карачаево-Черкессия" class="element__image">
+                    <div class="element__description">
+                        <h2 class="element__title">Карачаевск</h2>
+                        <button class="element__like-icon hover" type="button" aria-label="Отметка Нравится"></button>
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/elbrus.png" alt="Фото Гора Эльбрус" class="element__image">
+                    <div class="element__description">
+                        <h2 class="element__title">Гора Эльбрус</h2>
+                        <button class="element__like-icon hover" type="button" aria-label="Отметка Нравится"></button>
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/dombye.png" alt="Фото Домбай" class="element__image">
+                    <div class="element__description">
+                        <h2 class="element__title">Домбай</h2>
+                        <button class="element__like-icon hover" type="button" aria-label="Отметка Нравится"></button>
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/elbrus.png" alt="Фото Гора Эльбрус" class="element__image">
+                    <div class="element__description">
+                        <h2 class="element__title">Гора Эльбрус</h2>
+                        <button class="element__like-icon hover" type="button" aria-label="Отметка Нравится"></button>
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/dombye.png" alt="Фото Домбай" class="element__image">
+                    <div class="element__description">
+                        <h2 class="element__title">Домбай</h2>
+                        <button class="element__like-icon hover" type="button" aria-label="Отметка Нравится"></button>
+                    </div>
+                </article>
+                <article class="element">
+                    <img src="./images/karachaevsk.jpg" alt="Фото Карачаево-Черкессия" class="element__image">
+                    <div class="element__description">
+                        <h2 class="element__title">Карачаевск</h2>
+                        <button class="element__like-icon hover" type="button" aria-label="Отметка Нравится"></button>
+                    </div>
+                </article>
+            </section>
+            <section class="popup">
+                <div class="popup__container">
+                    <form class="popup__body" name="edit-form">
+                        <button class="popup__button-close hover" type="button"
+                            aria-label="Закрыть редактирование профиля"></button>
+                        <div class="popup__group">
+                            <h2 class="popup__title">Редактировать&nbsp;профиль</h2>
+                            <fieldset class="popup__input-container">
+                                <input class="popup__item" type="text" placeholder="Имя" value="Жак-Ив Кусто"
+                                    name="edit-name">
+                                <input class="popup__item" type="text" placeholder="Хобби" value="Исследователь океана"
+                                    name="edit-hobby">
+                            </fieldset>
+                            <fieldset class="popup__handlers">
+                                <button class="popup__button-submit" type="submit">Сохранить</button>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&COPY;&nbsp;2023&nbsp;Mesto&nbsp;Russia</p>
+        </footer>
+        </main>
+    </div>
+
+</body>
+
+</html>
