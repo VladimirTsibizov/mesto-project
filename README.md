@@ -22,3 +22,4 @@
 * Псевдоклассы CSS
 
 **Ссылка на проект**
+https://vladimirtsibizov.github.io/mesto-project/index.html
